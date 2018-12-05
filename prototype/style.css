@@ -106,7 +106,6 @@ h2{
     text-align: center;
     margin: auto;
     margin-bottom: 1em;
-    padding: 0em 4em 0em 4em;
     font-weight: 500;
     max-width: 60%;
     line-height: 40px;
@@ -382,9 +381,20 @@ width: 100px;
 
 
 @media screen and (min-width: 700px){
+h2{
+    padding: 0em 4em 0em 4em;
+}
+
   .panel{
     display:flex;
-  }}
+  }
+  .upcoming{
+    margin: 6em;
+
+  }
+}
+
+
 
 @media screen and (min-width: 700px){
 .petportal{
@@ -395,10 +405,11 @@ width: 100px;
     text-align: center;
     max-width: 75%;
     margin: 3em;
+    padding-left: 4em;
   }
 .petportal p{
-  text-align: left;
-}
+  text-align: left;}
+
 .petportal h5{
   text-align:left;
 max-width: 75%;
@@ -414,6 +425,7 @@ max-width: 100%;
 margin:auto;
 padding: 2em;
 text-align: center;
+
 }
 
 .petportal p{
@@ -421,12 +433,16 @@ text-align: center;
   color: white;
   margin:auto;
   padding-bottom: 2em;
+  color: #334051;
+
 }
 
 .petportal h5{
   font-size: 36px;
   font-weight: 700;
   margin:auto;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .petportal img{
@@ -446,7 +462,7 @@ text-align: center;
 }
 
 .upcoming{
-  margin: 6em;
+  margin: 2em;
 
 }
 
@@ -555,11 +571,7 @@ max-width: 100%;
   background-color: #f8a076;
   text-align: center;
   max-width: 100%;
-}
-
-.herotext h1{
-
-  }}
+}}
 
 
 .hero{
@@ -593,7 +605,7 @@ max-height: 400px;
 }*/
 .herotext{
   background-color: #f8a076;
-  padding: 2em 2em 2em 2em;
+  padding: 5em 2em 2em 2em;
   margin: 0;
   text-align: center;
 }
@@ -696,7 +708,7 @@ background-image: url(images/preparingforappointment.jpg);
 
 .clientsinfo{
   margin: auto;
-  width: 60%;
+  width: 75%;
   padding:2em;
 }
 
@@ -716,6 +728,13 @@ background-image: url(images/preparingforappointment.jpg);
     height: 500px;
     background-position: center;
 }
+
+.clientsinfo{
+  margin: auto;
+  width: 60%;
+  padding:2em;
+}
+
 .heroimg2 img{
     visibility: hidden;
 }
@@ -730,7 +749,7 @@ background-image: url(images/preparingforappointment.jpg);
 
 .note{
   background-color: #f8a076;
-  color: white;
+  color: #334051;
   padding: 2em;
   font-weight: bold;
 }

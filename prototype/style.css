@@ -1058,6 +1058,7 @@ max-width: 100%;
     max-height:none;
     width: 500px;
     height: 500px;
+    background-position: center;
 }
 
 .heroimg3 img{

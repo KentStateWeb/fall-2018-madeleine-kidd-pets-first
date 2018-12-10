@@ -126,6 +126,7 @@ h4{
   font-size: 20px;
   color: #f8a076;
   text-align: center;
+  line-height: 22px;
 }
 
 h5{
@@ -197,7 +198,7 @@ text-transform: uppercase;
     text-decoration: none;
     font-family: 'Avenir', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     color: #334051;
     transition:.3s all ease-in-out;
 }
@@ -207,8 +208,17 @@ text-transform: uppercase;
     text-decoration: none;
     font-family: 'Avenir', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
+}
+
+@media screen and (min-width: 850px) {
+.button a{
+  font-size: 20px;
+}
+.button a:hover{
+  font-size: 20px;
+}
 }
 
 /*.button1{
@@ -233,7 +243,7 @@ text-transform: uppercase;
     text-decoration: none;
     font-family: 'Avenir', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     color: #334051;
     transition:.3s all ease-in-out;
 }
@@ -244,10 +254,17 @@ text-transform: uppercase;
     text-decoration: none;
     font-family: 'Avenir', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
-
+@media screen and (min-width: 850px) {
+.button a{
+  font-size: 20px;
+}
+.button a:hover{
+  font-size: 20px;
+}
+}
 /*footer*/
 footer{
   background-color: #334051;

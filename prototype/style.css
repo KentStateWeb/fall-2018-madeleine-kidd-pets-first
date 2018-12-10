@@ -159,7 +159,6 @@ p{
     font-size: 26px;
     line-height: 38px;
 }
-
 }
 
 hr{
@@ -451,7 +450,7 @@ width: 100px;
 
 @media screen and (min-width: 700px){
 h2{
-    padding: 0em 4em 0em 4em;
+    padding: 0em 2em 0em 2em;
     max-width: 60%;
 }
 
@@ -656,15 +655,17 @@ padding-right: 4em;
 display: flex;
 max-width: 100%;
 }
+
 .heroimg{
   flex:1;
   background-image: url(images/ourservicespage.jpg);
-  	background-size: cover;
+    background-size: cover;
     max-width:none;
     max-height:none;
     width: 500px;
     height: 500px;
-}
+    background-position: center;
+  }
 
 .heroimg img{
     visibility: hidden;
@@ -700,26 +701,24 @@ margin: 0;
    width:100%; /*make image streatch*/
    margin:-10% 0%;
    width:177.777%;
-}
-}
+}}
+
 @media screen and (min-width: 850px){
 .herotext{
   padding: 5em 2em 2em 2em;
 }}
+
 .heroimg{
   margin: auto;
-  padding: 0;}
-
-
-
-
+  padding: 0;
+}
 
 .herotext h2{
   color: white;
   max-width: 100%;
   text-align: center;
-
 }
+
 .servicessub{
   text-align: center;
   padding: 1em 0em 3em 0em;

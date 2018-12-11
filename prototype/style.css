@@ -257,10 +257,10 @@ text-transform: uppercase;
     color: white;
 }
 @media screen and (min-width: 850px) {
-.button a{
+.button1 a{
   font-size: 20px;
 }
-.button a:hover{
+.button1 a:hover{
   font-size: 20px;
 }
 }

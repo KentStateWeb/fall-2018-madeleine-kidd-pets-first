@@ -76,6 +76,18 @@ header img{
   margin-bottom: 4em;
 }
 
+
+.homeimg{
+  max-height: 800px;
+  overflow: hidden;
+
+}
+
+.homeimg img{
+  width: 100%;
+  margin-top: -10%;
+}
+
 @media screen and (min-width: 1050px) {
     nav ul{
       font-size: 20px;
@@ -87,11 +99,6 @@ main{
   padding: 0;
 }
 
-main img{
-  max-width: 100%;
-  padding: 0;
-  margin: 0;
-}
 
 h1{
     font-family: 'crete round', slab-serif;
